@@ -5,6 +5,7 @@ import os
 import numpy as np
 from tensorflow.keras.utils import img_to_array
 
+
 app = Flask(__name__)
 model = tf.keras.models.load_model("models/FV.h5")
 
